@@ -4,7 +4,7 @@ This project consists of a frontend mobile app (built with React Native) and a b
 
 ## 🔗 Repositories
 
-- [Frontend (React Native)](https://github.com/TraX03/PantriQ_Front_End)
+- [Frontend (React Native)](https://github.com/TraX03/PantriQ_Frontend)
 - [Backend (FastAPI)](https://github.com/TraX03/Recommendation_AI)
 
 ...
