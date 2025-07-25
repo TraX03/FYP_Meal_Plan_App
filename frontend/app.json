@@ -1,0 +1,62 @@
+{
+  "expo": {
+    "name": "PantriQ",
+    "slug": "pantriQ",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/pantriQ-icon.png",
+    "scheme": "pantriq",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/images/pantriQ-logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/pantriQ-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.anonymous.pantriQ",
+      "permissions": ["POST_NOTIFICATIONS"]
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/pantriQ.png"
+    },
+    "plugins": [
+      "expo-router",
+      "./plugins/custom-android-styles.js",
+      "./plugins/withAbiFilters.js",
+      "expo-font",
+      "expo-web-browser",
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/images/pantriQ-logo.png",
+          "color": "#ffffff",
+          "defaultChannel": "default",
+          "enableBackgroundRemoteNotifications": false
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "turboModules": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "25ea4ee0-e124-4a69-b181-ba47625c8bad"
+      }
+    }
+  }
+}

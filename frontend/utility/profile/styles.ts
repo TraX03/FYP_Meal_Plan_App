@@ -1,0 +1,137 @@
+import { Colors } from "@/constants/Colors";
+import { StyleSheet } from "react-native";
+
+export const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: Colors.surface.background,
+  },
+  centeredContainer: {
+    flex: 1,
+    justifyContent: "center",
+    alignItems: "center",
+    backgroundColor: Colors.brand.onPrimary,
+    paddingHorizontal: 8,
+  },
+  profileSection: {
+    backgroundColor: Colors.brand.onPrimary,
+    paddingHorizontal: 20,
+    paddingTop: 65,
+    paddingBottom: 30,
+  },
+  headerContainer: {
+    flex: 1,
+    backgroundColor: Colors.brand.onPrimary,
+    paddingTop: 60,
+  },
+  avatarContainer: {
+    width: 88,
+    height: 88,
+    borderRadius: 56,
+    overflow: "hidden",
+    elevation: 7,
+  },
+  postListContainer: {
+    backgroundColor: Colors.surface.background,
+    borderTopLeftRadius: 10,
+    borderTopRightRadius: 10,
+    marginTop: -15,
+  },
+  loadingContianer: {
+    flex: 1,
+    justifyContent: "center",
+    alignItems: "center",
+    marginTop: 30,
+  },
+  headerTitle: {
+    fontSize: 18,
+    marginLeft: 14,
+    fontFamily: "RobotoMedium",
+  },
+  errorText: {
+    fontSize: 16,
+    fontFamily: "RobotoRegular",
+    color: Colors.text.highlight,
+    textAlign: "center",
+  },
+  username: {
+    fontSize: 20,
+    fontFamily: "RobotoSemiBold",
+    color: Colors.brand.onPrimary,
+  },
+  followInfo: {
+    marginTop: 10,
+    fontSize: 14,
+    fontFamily: "RobotoRegular",
+    color: Colors.text.muted,
+  },
+  indicatorText: {
+    marginTop: 8,
+    fontSize: 12,
+    textAlign: "right",
+    fontFamily: "RobotoRegular",
+    color: Colors.text.disabled,
+  },
+  bioText: {
+    color: Colors.brand.onPrimary,
+    fontFamily: "RobotoRegular",
+    paddingTop: 25,
+  },
+  loginText: {
+    color: Colors.brand.onPrimary,
+    fontFamily: "RobotoRegular",
+  },
+  profileTabText: {
+    color: Colors.brand.onPrimary,
+    marginTop: 6,
+    fontSize: 13,
+    fontFamily: "RobotoRegular",
+  },
+  loginButton: {
+    borderRadius: 9999,
+    paddingHorizontal: 24,
+    paddingVertical: 4,
+    backgroundColor: Colors.overlay.base,
+    marginLeft: 4,
+  },
+  followButton: {
+    borderRadius: 99,
+    paddingHorizontal: 25,
+    paddingVertical: 5,
+  },
+  avatar: {
+    width: "100%",
+    height: "100%",
+    backgroundColor: Colors.text.placeholder,
+  },
+  profileTab: {
+    alignItems: "center",
+    justifyContent: "center",
+    padding: 12,
+    borderRadius: 12,
+    backgroundColor: Colors.overlay.lightBlue,
+    minWidth: 90,
+    height: 80,
+    marginRight: 12,
+  },
+  tabHeader: {
+    flexDirection: "row",
+    justifyContent: "space-around",
+    borderBottomColor: Colors.text.disabled,
+    borderBottomWidth: 1,
+    paddingVertical: 13,
+    backgroundColor: Colors.brand.onPrimary,
+    borderTopLeftRadius: 10,
+    borderTopRightRadius: 10,
+  },
+  subTabHeader: {
+    flexDirection: "row",
+    paddingHorizontal: 10,
+    backgroundColor: Colors.brand.onPrimary,
+    height: 40,
+    alignItems: "center",
+    borderBottomColor: Colors.surface.border,
+    borderBottomWidth: 1,
+    gap: 20,
+  },
+});

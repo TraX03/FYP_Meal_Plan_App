@@ -1,0 +1,46 @@
+# Logs
+
+\*.log
+
+# Node modules
+
+node_modules/
+
+# macOS / Windows / system files
+
+.DS_Store
+Thumbs.db
+
+# Build output
+
+dist/
+build/
+.web/
+.next/
+out/
+
+# Test files
+
+**tests**/
+_.spec.js
+_.test.js
+_.test.ts
+_.test.tsx
+
+# Local tools
+
+.vscode/
+.idea/
+
+# Environment files
+
+.env
+.env.\*
+
+reactotron/
+ReactotronConfig.js
+
+# Ignore native folders for EAS Prebuild
+
+/android/
+/ios/
